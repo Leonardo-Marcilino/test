@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: var(--Max-window-width);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}

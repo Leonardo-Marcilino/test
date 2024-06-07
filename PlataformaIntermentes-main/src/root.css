@@ -1,0 +1,31 @@
+:root {
+  --poppins-font: "Poppins", sans-serif;
+  --montserrat-alternates-font: "Montserrat Alternates", sans-serif;
+  --cor-roxo-forte: #B66FD8;
+  --cor-roxo-leve: #C9A0DC;
+  --cor-roxoLigth: #E5B8FA;
+  --cor-laranja-leve: #FFC773;
+  --cor-laranja-forte: #FFA500;
+  --cor-branca: #FBFBFB;
+  --cor-preta: #232323;
+  --Bold: 700;
+  --SemiBold: 600;
+  --Ligth: 300;
+  --Max-window-width: 1920px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cor-branca);
+  font-size: 62.5%;
+
+}
+
+/* a{
+  color: var(--cor-preta);
+  font-family: var(--poppins-font);
+} */
+.CorRoxa{
+  color: var(--cor-roxo-forte);
+}

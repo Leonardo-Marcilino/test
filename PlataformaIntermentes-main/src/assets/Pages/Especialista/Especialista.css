@@ -1,0 +1,339 @@
+.CabecalhoEspecialista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CabecalhoTextos{
+    width: 45%;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    font-family: var(--montserrat-alternates-font);
+    h1{
+        font-size: 4rem;
+    }
+    span{
+        font-size: 4rem;
+        color: var(--cor-roxo-forte);
+    }
+    p{
+        font-family: var(--poppins-font);
+        font-weight: var(--SemiBold);
+    }
+}
+.BtnCabecalho{
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+    button{
+      background-color: var(--cor-laranja-leve);
+      font-family: var(--poppins-font);
+      font-size: 1.6rem;
+      color: var(--cor-preta);
+      font-weight: 700;
+      font-style: normal;
+      width: 21vw;
+      height: 9vh;
+      border: none;
+      border-radius: 15px;
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    img{
+        margin-left: 15px;
+        background-color: var(--cor-laranja-leve);
+    }
+}
+.Vantagens{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    .Textos2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2{
+            font-size: 4rem;
+            font-weight: var(--SemiBold);
+            font-family: var(--montserrat-alternates-font);
+        }
+        span{
+            font-size: 4rem;
+            color: var(--cor-roxo-forte);
+            font-weight: var(--SemiBold);
+        }
+        p{
+            font-size: 2rem;
+            font-family: var(--poppins-font);
+            font-weight: var(--Bold);
+            width: 35vw;
+            margin-top: 3vh;
+            margin-bottom: 3vh; 
+        }
+    }
+}
+.Cards{
+    margin-top: 4vh;
+    .Card1{
+        width: 185px;
+        height: 95px;
+        border-radius: 15px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+        background-color: white; 
+        p{
+            font-size: 1.8rem;  
+            font-family: var(--poppins-font);  
+            background-color: white;      
+        }
+        span{
+            font-weight: var(--Bold);
+            font-size: 1.5rem;
+            background-color: white; 
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            background-color: white; 
+        }
+
+    }
+    .Card2{
+        width: 185px;
+        height: 95px;
+        border-radius: 15px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+        background-color: white; 
+        p{
+            font-size: 1.7rem;   
+            font-family: var(--poppins-font);  
+            background-color: white;           
+        }
+        span{
+            font-weight: var(--Bold);
+            font-size: 1.5rem;
+            background-color: white; 
+        }
+        img{
+            width: 24px;
+            height: 27px;
+            background-color: white; 
+        }
+    }
+}
+.Banner2{
+    img{
+        position: relative;
+        height: 75vh;
+        margin-left: 45px;
+    }
+}
+.Titulo3{
+    padding-top: 5vw;
+    h2{
+        font-size: 5rem;
+        font-family: var(--montserrat-alternates-font);
+        text-align: center;
+    }
+    span{
+        font-size: 5rem;
+        color: var(--cor-roxo-forte);
+        font-weight: var(--SemiBold);
+    }
+}
+.FazerParte{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .Textos3{
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        .Passos{
+            width: 25vw;
+            height: 45vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: flex-start;
+        }
+        P{
+            font-family: var(--poppins-font);
+            font-size: 1.7rem; 
+            font-weight: var(--Bold);           
+        }
+        h3{
+            font-family: var(--montserrat-alternates-font);
+            font-size: 3rem; 
+            font-weight: var(--Bold);
+            color: var(--cor-roxo-forte);
+            margin-left: 15px;
+        }
+        span{
+            font-size: 1.7rem;
+            color: var(--cor-roxo-forte);
+            font-weight: var(--Bold);
+        }
+
+    }
+    .Girl{
+        img{
+            width: 80vh;
+        }
+    }
+}
+.Artigos{
+    padding-top: 10vw;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Textos4{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: var(--montserrat-alternates-font);
+            font-size: 3.5rem;            
+        }
+        p{
+            font-family: var(--montserrat-alternates-font);
+            font-size: 2rem;
+        }
+    }
+    .Pesquisas{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        .CardArtigo{
+            width: 19%;
+            height: 60vh;
+            border-radius: 15px;
+            margin-top: 5vw;
+            background-color: white;   
+            border: var(--cor-laranja-forte) solid 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        h4{
+            font-family: var(--poppins-font);
+            font-weight: var(--Ligth);
+            font-size: 2rem;
+            background-color: white;   
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: var(--poppins-font);
+            font-weight: var(--Ligth);
+            width: 16vw;
+            background-color: white;   
+        }
+        img{
+            width: 17vw;
+            background-color: white;   
+        }
+    }
+}
+.Texto6{
+    position: relative;
+    background-color: var(--cor-roxo-forte);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 3rem;
+        color: white;
+        font-family: var(--poppins-font);
+        font-weight: var(--SemiBold);
+    }
+    p{
+        font-size: 1.8rem;
+        color: white;
+        font-family: var(--poppins-font);
+       
+    }
+}
+.Planos{
+    height: 90vh;
+    margin-top: 5vw;
+}
+.Cards3{
+    position: absolute;
+    margin-top: -45px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Card4{
+    position: relative;
+    background-color: white;
+    width: 20vw;
+    height: 60vh;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0px 12px 6px rgb(128, 128, 128, 0.5);
+    h3{
+        font-size: 1.6rem;
+        color: var(--cor-preta);
+        font-family: var(--poppins-font);
+        font-weight: var(--SemiBold);
+        margin-top: 5vh;
+        margin-left: 2vw;
+    }
+    h4{
+        font-size: 2.3rem;
+        color: var(--cor-preta);
+        font-family: var(--montserrat-alternates-font);
+        font-weight: var(--Bold);
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+    span{
+        font-size: 1.4rem;
+        color: gray;
+        font-family: var(--poppins-font); 
+    }
+    p{
+        font-size: 1rem;
+        font-family: var(--poppins-font);
+        color: gray;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    ul{
+        margin-top: 2vh; 
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        font-size: 1.3rem;
+        font-family: var(--poppins-font); 
+        text-align: center;
+        margin-top: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: var(--cor-laranja-forte);
+}

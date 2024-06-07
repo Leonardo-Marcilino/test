@@ -1,0 +1,169 @@
+header{
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 192rem;
+    padding: 0 4rem;
+}
+.MenuLinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContainerMenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.BoxLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BoxLogo a {
+    width: 15rem;
+    height: 11rem;
+}
+.BoxLogo a img {
+    width: 100%;
+    height: 100%;
+}
+.BoxLogo p {
+    font-size: 1.3rem;
+    font-weight: var(--SemiBold);
+    color: var(--cor-roxo-forte);
+    font-family: var(--montserrat-alternates-font);
+}
+.ListaLinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: var(--poppins-font);
+    font-weight: var(--SemiBold);
+}
+.ListaLinks .LinkItem{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.8s all;
+} 
+.ListaLinks .LinkItem a{
+    transition: 0.5s all;
+} 
+.ListaLinks .LinkItem a:hover{
+   color: var(--cor-roxo-forte);
+   transform: scale(1.05);
+} 
+.ListaLinks .LiDropMenu{
+    position: relative;
+}
+.LiDropMenu .DropMenu{
+    visibility: hidden;
+    transition: 0.8s all;
+
+    position: absolute;
+    width: 22.9rem;
+    height: 0rem;
+    background-color: var(--cor-branca);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  
+    border: 3px solid var(--cor-roxo-forte);
+    border-radius: 2rem;
+    right: -8rem;
+   
+    overflow: hidden;
+    z-index: 10;
+}
+.DropMenuBox .TitleDropMenu {    
+    font-size: 1.6rem;
+    color: var(--cor-preta);
+}
+.DropMenuBox .DescriptionDropMenu {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cor-preta);
+}
+.DropMenuBox .CorRoxa{
+    color: var(--cor-roxo-forte);
+}
+.DropMenuBox .Show{
+    visibility: hidden;
+}
+.ListaLinks .LiDropMenu:hover .DropMenu{
+    visibility: visible;
+    transition: 1s all;
+    height: 18rem;
+    padding: 2rem;
+}
+.ListaLinks .LiDropMenu:hover .DropMenu .DropMenuBox .Show{
+    visibility: visible;
+}
+/* @keyframes DropMenu {
+    to{height: 33.3rem;}
+} */
+.BoxAcessar{    
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-size: 1.5rem;
+    font-family: var(--poppins-font);
+    font-weight: var(--SemiBold);
+    color: var(--cor-roxo-forte);
+    cursor: pointer;
+}
+.BoxAcessar img{
+    transition: 0.8s all;
+
+}
+.BoxAcessar:hover .IconSetinha{
+    transform: scale(0.8);
+}
+.BoxAcessar .ContainerMenuUser{
+    position: relative;
+}
+.DropMenuUser{
+    visibility: hidden;
+
+    position: absolute;
+    border:  3px solid var(--cor-roxo-forte);
+    border-radius: 2rem;
+    right: -3rem;
+
+    width: 22rem;
+    height: 0;
+    padding: 0;
+
+    transition: 0.8s all;
+    overflow: hidden;
+
+    background-color: var(--cor-branca);
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-size: 1.4rem;
+}
+.BoxAcessar:hover .DropMenuUser{
+    visibility: visible;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.DropMenuUser .BoxItemMenu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s all;
+}
+.BoxItemMenu:hover{
+    transform: scale(0.9);
+}

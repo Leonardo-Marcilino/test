@@ -1,0 +1,110 @@
+.Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 109vh;
+    padding-top: 5vw;
+  }
+  .Subtexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 64vh;
+     h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--montserrat-alternates-font);    
+    }
+    p{
+      font-size: 2.4rem;
+      font-family: var(--montserrat-alternates-font);
+      font-weight: var(--SemiBold);
+      width: 58%;
+      text-align: center;
+    } 
+    span{
+      font-size: 2.4rem;
+      color: var(--cor-roxo-forte);
+  }
+  }
+  .Depoimentos{
+    width: 75%;
+    height: 40vh;
+    border-radius: 15px;
+    background-color: white;
+    border: var(--cor-laranja-forte) solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+      p{
+        width: 88%;
+        background-color: white;
+      }
+  }
+  .Comentario{
+    font-size: 1.4rem;
+    font-family: var(--poppins-font);
+    font-weight: var(--Ligth);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  .Autores{
+    font-size: 1.7rem;
+    font-family: var(--montserrat-alternates-font);
+    font-weight: var(--SemiBold);
+    background-color: white;
+    width: 77%;
+    img{
+      background-color: white;
+    }
+    span{
+      color: var(--cor-roxo-forte);
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    color: #FFA500;
+  }
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-wrapper{
+      margin-left: 4vw;
+  }
+  .Btn2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43px;
+    h3{
+      font-size: 3rem;
+      font-family: var(--montserrat-alternates-font);
+    }
+    button{
+      background-color: var(--cor-laranja-leve);
+      font-family: var(--poppins-font);
+      font-size: 1.9rem;
+      color: var(--cor-preta);
+      font-weight: 700;
+      font-style: normal;
+      width: 21vw;
+      height: 9vh;
+      border: none;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+    span{
+      font-size: 2.8rem;
+      font-family: var(--montserrat-alternates-font);
+      font-weight: var(--SemiBold);
+      color: var(--cor-roxo-forte);
+    }
+  }
